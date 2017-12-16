@@ -35,6 +35,10 @@
 .square {
   width: 33.3333%;
   text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .box1 {
@@ -49,6 +53,11 @@ h1 {
 .img-class {
   height: 600px;
   width: 40%;
+}
+
+figcaption {
+  padding: 52px;
+  font-size: 12px;
 }
 
 .box2 {
