@@ -66,10 +66,32 @@
   background-color: aqua;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
+
+.body {
+  display: flex;
+  flex-flow: column;
+  width: 430px;
+  height: 1600px;
+  border: 15px solid #D0D0D0;
+}
+
+.topboxes {
+  display: flex;
+  width: 400px;
+  height: 1030px;
+  min-width: 400px;
+}
 
 .box1 {
   background-color: red;
 }
+
+.box8 {
+  width: 400px;
+}
+
+
+
 
 }
