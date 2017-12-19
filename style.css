@@ -6,95 +6,199 @@
 }
 
 .body {
-  display: flex;
-  justify-content: center;
-  width: 1030px;
-  height: 630px;
   border: 15px solid #D0D0D0;
+  color: white;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
 }
 
 .topboxes {
   display: flex;
   flex-flow: row wrap;
   min-height: 600px;
-  min-width: 600px;
+  width: 60%;
 }
 
 .box {
-  height: 200px;
+  height: 33.33%;
+  position: relative;
 }
 
 .square {
-  width: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  text-transform: uppercase;
+  width: 33.3333%;
 }
 
 .box1 {
-  width: 400px;
-  background-color: blue;
+  background-color: #CAABB4;
+  padding: 32px 20px;
+  width: 66.666%;
 }
 
-.img-class {
-  height: 600px;
-  width: 400px;
+h1 {
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+
+.header-text {
+  font-size: 11px;
+  padding-bottom: 3px;
+}
+
+.header-icon {
+  display: inline-block;
+  height: 15px;
+  margin-right: 4px;
+  padding-top: 2px;
+  vertical-align: top;
+  width: 15px;
+}
+
+.bordered-box {
+  border: 1px solid white;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 9px;
+  text-transform: uppercase;
+}
+
+figcaption {
+  font-size: 12px;
+  padding-bottom: 52px;
 }
 
 .box2 {
-  background-color: red;
+  background-color: #CEB9A8;
 }
 
 .box3 {
-  background-color: green;
+  background-color: #D9CACC;
 }
 
 .box4 {
-  background-color: pink;
+  background-color: #B5B3A7;
 }
 
 .box5 {
-  background-color: purple;
+  background-color: #7E6862;
 }
 
 .box6 {
-  background-color: yellow;
+  background-color: #616558;
 }
 
 .box7 {
-  background-color: orange;
+  background-color: #A18D89;
 }
 
 .box8 {
-  background-color: aqua;
+  background-color: #CAB2A7;
 }
 
-@media screen and (max-width: 618px) {
+.smallimg {
+  display: block;
+  height: 60px;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+}
+
+.right-side {
+  background-image: url(https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-typo/default/dwa6ccbee2/134763/134763-66-2.jpg?sw=400&sh=600&sm=fit);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 600px;
+  width: 40%;
+}
+
+.dots {
+  margin-right: 6px;
+  text-align: right;
+  width: 100%;
+}
+
+.dot {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+.dot2 {
+  opacity: 0.5;
+}
+
+
+.arrows {
+  height: 40px;
+  width: 40px;
+}
+
+.left {
+  margin-left: 5px;
+}
+
+.right {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 656px) {
 
 .body {
+  border: 15px solid #D0D0D0;
   display: flex;
   flex-flow: column;
-  width: 430px;
   height: 1600px;
-  border: 15px solid #D0D0D0;
+  width: 100%;
 }
-
+  
 .topboxes {
   display: flex;
-  width: 400px;
   height: 1030px;
-  min-width: 400px;
+  width: 100%;
 }
 
 .box1 {
-  background-color: red;
+  height: 200px;
+  width: 100%;
+}
+
+.square {
+  height: 200px;
+  width: 50%;
+}
+
+.box8 {
+  width: 100%;
+}
+
+.right-side {
+  height: 600px;
+  width: 100%;
+}
+
+.dots {
+  margin-top: 5px;
 }
 
 .box8 {
   width: 400px;
 }
-
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> makeresponsive
 }
