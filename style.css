@@ -168,7 +168,7 @@ figcaption {
   height: 1600px;
   width: 100%;
 }
-
+  
 .topboxes {
   display: flex;
   height: 1030px;
@@ -198,4 +198,7 @@ figcaption {
   margin-top: 5px;
 }
 
+.box8 {
+  width: 400px;
+}
 }
